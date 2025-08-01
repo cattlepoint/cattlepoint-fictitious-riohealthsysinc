@@ -27,6 +27,7 @@ Prepared for the CTO Cohort, Private Equity Investment Board — 30 July 2025
 Rio Health Systems ("Rio") operates nine mission‑critical workloads in two leased data‑centers (Dallas & North Carolina) that expire within 36 months. A staged migration to Amazon Web Services (AWS) retires \$4.1 M / yr OPEX, avoids \$12 M CapEx, and achieves HIPAA, SOC 2, and ISO 27001 compliance. The 36‑month program establishes a Well‑Architected landing zone, Infrastructure‑as‑Code (IaC), Continuous‑Integration/Continuous‑Delivery (CI/CD), and automated evidence collection.
 
 **Investment ask:** \$28.6 M (labor \$12.4 M @ \$200 / h; cloud & tools \$16.2 M)
+
 **Return:** 5‑yr NPV + \$14.8 M, IRR 22 %, break‑even month 35.
 
 ---
