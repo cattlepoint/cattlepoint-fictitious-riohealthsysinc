@@ -26,18 +26,18 @@ Prepared for the CTO Cohort, Private Equity Investment Board — 30 July 2025
 
 Rio Health Systems ("Rio") operates nine mission‑critical workloads in two leased data‑centers (Dallas & North Carolina) that expire within 36 months. A staged migration to Amazon Web Services (AWS) retires \$4.1 M / yr OPEX, avoids \$12 M CapEx, and achieves HIPAA, SOC 2, and ISO 27001 compliance. The 36‑month program establishes a Well‑Architected landing zone, Infrastructure‑as‑Code (IaC), Continuous‑Integration/Continuous‑Delivery (CI/CD), and automated evidence collection.
 
-**Investment ask:** \$28.6 M (labor \$12.4 M @ \$200 / h; cloud & tools \$16.2 M)
+* **Investment ask:** \$28.6 M (labor \$12.4 M @ \$200 / h; cloud & tools \$16.2 M)
 
-**Return:** 5‑yr NPV + \$14.8 M, IRR 22 %, break‑even month 35.
+* **Return:** 5‑yr NPV + \$14.8 M, IRR 22 %, break‑even month 35.
 
 ---
 
 ## 2 Investment Thesis & Strategic Context
 
-• Retire expiring leases and obsolete hardware, eliminating 35 % of annual IT OPEX.
-• Enable elastic scale, zero‑trust security, and data‑driven innovation on AWS.
-• Create an M\&A‑ready “factory” that onboards bolt‑ons in < 30 days.
-• Improve EBITDA by \$2.8 M / yr, lifting enterprise value by \$22 M at an 8× multiple.
+* Retire expiring leases and obsolete hardware, eliminating 35 % of annual IT OPEX.
+* Enable elastic scale, zero‑trust security, and data‑driven innovation on AWS.
+* Create an M\&A‑ready “factory” that onboards bolt‑ons in < 30 days.
+* Improve EBITDA by \$2.8 M / yr, lifting enterprise value by \$22 M at an 8× multiple.
 
 ---
 
@@ -70,12 +70,12 @@ Rio Health Systems ("Rio") operates nine mission‑critical workloads in two lea
 
 ## 5 Target‑State Architecture
 
-• **Landing Zone & Org:** AWS Control Tower with Foundation, Workloads‑Prod, Workloads‑NonProd OUs, SCP guard‑rails, central audit account.
-• **Network:** Hub‑and‑spoke VPCs via AWS Transit Gateway; 10 Gbps DX during coexistence; Gateway Load Balancer for IDS/IPS.
-• **Identity:** Azure AD federation through IAM Identity Center; ABAC tagging; JIT privileged roles.
-• **Data Layer:** Aurora MySQL/PG global clusters, Redshift RA3 lakehouse, S3 Iceberg tables, SAP on HANA Large Instances.
-• **Observability:** ADOT collectors → X‑Ray, CloudWatch RUM; metrics to Amazon Managed Grafana.
-• **DR & Resilience:** Multi‑AZ everywhere; pilot‑light third region; Backup Vault lifecycle to Glacier Deep Archive.
+* **Landing Zone & Org:** AWS Control Tower with Foundation, Workloads‑Prod, Workloads‑NonProd OUs, SCP guard‑rails, central audit account.
+* **Network:** Hub‑and‑spoke VPCs via AWS Transit Gateway; 10 Gbps DX during coexistence; Gateway Load Balancer for IDS/IPS.
+* **Identity:** Azure AD federation through IAM Identity Center; ABAC tagging; JIT privileged roles.
+* **Data Layer:** Aurora MySQL/PG global clusters, Redshift RA3 lakehouse, S3 Iceberg tables, SAP on HANA Large Instances.
+* **Observability:** ADOT collectors → X‑Ray, CloudWatch RUM; metrics to Amazon Managed Grafana.
+* **DR & Resilience:** Multi‑AZ everywhere; pilot‑light third region; Backup Vault lifecycle to Glacier Deep Archive.
 
 ---
 
