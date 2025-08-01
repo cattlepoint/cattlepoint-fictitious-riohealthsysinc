@@ -2,6 +2,8 @@ Rio Health Systems, Inc.—AWS Migration & Modernization Program
 Comprehensive Technical Pitch (Rev 3)
 Prepared for the CTO Cohort, Private Equity Investment Board — 30 July 2025
 
+Rio Health Systems is a global manufacturer and distributor of healthcare equipment and supplies. The company operates manufacturing facilities in Texas, Mexico, and India, with its largest distribution center and headquarters in Dallas.
+
 ---
 
 # Table of Contents
@@ -142,6 +144,8 @@ Detailed ten‑year outlook continues with edge compute pilots, serverless shift
 | **EBITDA delta**     | **+\$2.82 M** | Steady‑state Year 4           |
 
 5‑yr NPV + \$14.8 M (12 % discount); IRR 22 %. Sensitivity @ ±10 % cloud price: NPV range \$13.1 M‑\$16.5 M, IRR ≥ 19 %.
+
+Professional services are estimated at 62,000 hours billed at $200 per hour for technical work and project management. Additional AWS usage and tooling costs bring the total investment to $28.6 million over the program lifecycle.
 
 ---
 
